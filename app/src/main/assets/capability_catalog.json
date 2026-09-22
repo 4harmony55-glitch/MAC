@@ -1,0 +1,2094 @@
+{
+  "schemaVersion": 1,
+  "inventory": {
+    "actions": 207,
+    "triggers": 122,
+    "constraints": 87
+  },
+  "actions": [
+    {
+      "id": "AccessibilityServiceAction",
+      "name": "Accessibility Service Action",
+      "kind": "action"
+    },
+    {
+      "id": "ActionBlockAction",
+      "name": "Action Block Action",
+      "kind": "action"
+    },
+    {
+      "id": "AddCalendarEntryAction",
+      "name": "Add Calendar Entry Action",
+      "kind": "action"
+    },
+    {
+      "id": "AiLlmQueryAction",
+      "name": "Ai Llm Query Action",
+      "kind": "action"
+    },
+    {
+      "id": "AmbientDisplayAction",
+      "name": "Ambient Display Action",
+      "kind": "action"
+    },
+    {
+      "id": "AndroidShortcutsAction",
+      "name": "Android Shortcuts Action",
+      "kind": "action"
+    },
+    {
+      "id": "AndroidWearAction",
+      "name": "Android Wear Action",
+      "kind": "action"
+    },
+    {
+      "id": "AnimationOverlayAction",
+      "name": "Animation Overlay Action",
+      "kind": "action"
+    },
+    {
+      "id": "AnswerCallAction",
+      "name": "Answer Call Action",
+      "kind": "action"
+    },
+    {
+      "id": "ArrayManipulationAction",
+      "name": "Array Manipulation Action",
+      "kind": "action"
+    },
+    {
+      "id": "AuthenticateUserAction",
+      "name": "Authenticate User Action",
+      "kind": "action"
+    },
+    {
+      "id": "BatterySaverAction",
+      "name": "Battery Saver Action",
+      "kind": "action"
+    },
+    {
+      "id": "BlockTouchesAction",
+      "name": "Block Touches Action",
+      "kind": "action"
+    },
+    {
+      "id": "BluetoothTetheringAction",
+      "name": "Bluetooth Tethering Action",
+      "kind": "action"
+    },
+    {
+      "id": "BreakFromLoopAction",
+      "name": "Break From Loop Action",
+      "kind": "action"
+    },
+    {
+      "id": "BubbleNotificationAction",
+      "name": "Bubble Notification Action",
+      "kind": "action"
+    },
+    {
+      "id": "CameraFlashLightAction",
+      "name": "Camera Flash Light Action",
+      "kind": "action"
+    },
+    {
+      "id": "CameraNotificationCircleAction",
+      "name": "Camera Notification Circle Action",
+      "kind": "action"
+    },
+    {
+      "id": "CancelActiveMacroAction",
+      "name": "Cancel Active Macro Action",
+      "kind": "action"
+    },
+    {
+      "id": "CaptureNextClickXYAction",
+      "name": "Capture Next Click XYAction",
+      "kind": "action"
+    },
+    {
+      "id": "CarModeAction",
+      "name": "Car Mode Action",
+      "kind": "action"
+    },
+    {
+      "id": "CheckImageOnScreenAction",
+      "name": "Check Image On Screen Action",
+      "kind": "action"
+    },
+    {
+      "id": "CheckPixelColorAction",
+      "name": "Check Pixel Color Action",
+      "kind": "action"
+    },
+    {
+      "id": "CheckTextInScreenshotAction",
+      "name": "Check Text In Screenshot Action",
+      "kind": "action"
+    },
+    {
+      "id": "CheckTextOnScreenAction",
+      "name": "Check Text On Screen Action",
+      "kind": "action"
+    },
+    {
+      "id": "ClearAppDataAction",
+      "name": "Clear App Data Action",
+      "kind": "action"
+    },
+    {
+      "id": "ClearCallLogAction",
+      "name": "Clear Call Log Action",
+      "kind": "action"
+    },
+    {
+      "id": "ClearDialogAction",
+      "name": "Clear Dialog Action",
+      "kind": "action"
+    },
+    {
+      "id": "ClearDictionaryArrayEntryAction",
+      "name": "Clear Dictionary Array Entry Action",
+      "kind": "action"
+    },
+    {
+      "id": "ClearLogAction",
+      "name": "Clear Log Action",
+      "kind": "action"
+    },
+    {
+      "id": "ClearNotificationsAction",
+      "name": "Clear Notifications Action",
+      "kind": "action"
+    },
+    {
+      "id": "ClearVariablesAction",
+      "name": "Clear Variables Action",
+      "kind": "action"
+    },
+    {
+      "id": "ClipboardAction",
+      "name": "Clipboard Action",
+      "kind": "action"
+    },
+    {
+      "id": "CloseApplicationAction",
+      "name": "Close Application Action",
+      "kind": "action"
+    },
+    {
+      "id": "ConfigureAppNotificationsAction",
+      "name": "Configure App Notifications Action",
+      "kind": "action"
+    },
+    {
+      "id": "ConfigureWidgetButtonAction",
+      "name": "Configure Widget Button Action",
+      "kind": "action"
+    },
+    {
+      "id": "ConfirmDialogAction",
+      "name": "Confirm Dialog Action",
+      "kind": "action"
+    },
+    {
+      "id": "ConfirmNextAction",
+      "name": "Confirm Next Action",
+      "kind": "action"
+    },
+    {
+      "id": "ConnectivityCheckAction",
+      "name": "Connectivity Check Action",
+      "kind": "action"
+    },
+    {
+      "id": "ContactViaAppAction",
+      "name": "Contact Via App Action",
+      "kind": "action"
+    },
+    {
+      "id": "ContinueLoopAction",
+      "name": "Continue Loop Action",
+      "kind": "action"
+    },
+    {
+      "id": "ControlMediaAction",
+      "name": "Control Media Action",
+      "kind": "action"
+    },
+    {
+      "id": "CreateChartAction",
+      "name": "Create Chart Action",
+      "kind": "action"
+    },
+    {
+      "id": "CustomSceneAction",
+      "name": "Custom Scene Action",
+      "kind": "action"
+    },
+    {
+      "id": "DarkThemeAction",
+      "name": "Dark Theme Action",
+      "kind": "action"
+    },
+    {
+      "id": "DayDreamAction",
+      "name": "Day Dream Action",
+      "kind": "action"
+    },
+    {
+      "id": "DeleteVariableAction",
+      "name": "Delete Variable Action",
+      "kind": "action"
+    },
+    {
+      "id": "DimScreenAction",
+      "name": "Dim Screen Action",
+      "kind": "action"
+    },
+    {
+      "id": "DisableAppAction",
+      "name": "Disable App Action",
+      "kind": "action"
+    },
+    {
+      "id": "DisableCameraAction",
+      "name": "Disable Camera Action",
+      "kind": "action"
+    },
+    {
+      "id": "DisableCategoryAction",
+      "name": "Disable Category Action",
+      "kind": "action"
+    },
+    {
+      "id": "DisableMacroAction",
+      "name": "Disable Macro Action",
+      "kind": "action"
+    },
+    {
+      "id": "DisableMacroDroidAction",
+      "name": "Disable Macro Droid Action",
+      "kind": "action"
+    },
+    {
+      "id": "DisableTriggerAction",
+      "name": "Disable Trigger Action",
+      "kind": "action"
+    },
+    {
+      "id": "DisplayDensityAction",
+      "name": "Display Density Action",
+      "kind": "action"
+    },
+    {
+      "id": "EdgeLightingAction",
+      "name": "Edge Lighting Action",
+      "kind": "action"
+    },
+    {
+      "id": "ElseAction",
+      "name": "Else Action",
+      "kind": "action"
+    },
+    {
+      "id": "ElseIfConditionAction",
+      "name": "Else If Condition Action",
+      "kind": "action"
+    },
+    {
+      "id": "ElseIfConfirmedThenAction",
+      "name": "Else If Confirmed Then Action",
+      "kind": "action"
+    },
+    {
+      "id": "EncryptDecryptTextAction",
+      "name": "Encrypt Decrypt Text Action",
+      "kind": "action"
+    },
+    {
+      "id": "EndIfAction",
+      "name": "End If Action",
+      "kind": "action"
+    },
+    {
+      "id": "EndLoopAction",
+      "name": "End Loop Action",
+      "kind": "action"
+    },
+    {
+      "id": "ExpandCollapseStatusBarAction",
+      "name": "Expand Collapse Status Bar Action",
+      "kind": "action"
+    },
+    {
+      "id": "ExportMacrosAction",
+      "name": "Export Macros Action",
+      "kind": "action"
+    },
+    {
+      "id": "FileOperationAllFilesAction",
+      "name": "File Operation All Files Action",
+      "kind": "action"
+    },
+    {
+      "id": "FloatingButtonConfigureAction",
+      "name": "Floating Button Configure Action",
+      "kind": "action"
+    },
+    {
+      "id": "FloatingTextAction",
+      "name": "Floating Text Action",
+      "kind": "action"
+    },
+    {
+      "id": "FontScaleAction",
+      "name": "Font Scale Action",
+      "kind": "action"
+    },
+    {
+      "id": "ForceLocationUpdateAction",
+      "name": "Force Location Update Action",
+      "kind": "action"
+    },
+    {
+      "id": "ForceMacroRunAction",
+      "name": "Force Macro Run Action",
+      "kind": "action"
+    },
+    {
+      "id": "ForceScreenRotationAction",
+      "name": "Force Screen Rotation Action",
+      "kind": "action"
+    },
+    {
+      "id": "ForwardSMSAction",
+      "name": "Forward SMSAction",
+      "kind": "action"
+    },
+    {
+      "id": "GenerateQRCodeAction",
+      "name": "Generate QRCode Action",
+      "kind": "action"
+    },
+    {
+      "id": "GetCalendarEventsAction",
+      "name": "Get Calendar Events Action",
+      "kind": "action"
+    },
+    {
+      "id": "GetContactsAction",
+      "name": "Get Contacts Action",
+      "kind": "action"
+    },
+    {
+      "id": "GetDataUsedAction",
+      "name": "Get Data Used Action",
+      "kind": "action"
+    },
+    {
+      "id": "GetInstalledAppsAction",
+      "name": "Get Installed Apps Action",
+      "kind": "action"
+    },
+    {
+      "id": "GetLightLevelAction",
+      "name": "Get Light Level Action",
+      "kind": "action"
+    },
+    {
+      "id": "GetTextByViewIdAction",
+      "name": "Get Text By View Id Action",
+      "kind": "action"
+    },
+    {
+      "id": "HeadsUpNotificationsAction",
+      "name": "Heads Up Notifications Action",
+      "kind": "action"
+    },
+    {
+      "id": "HideSceneAction",
+      "name": "Hide Scene Action",
+      "kind": "action"
+    },
+    {
+      "id": "HttpRequestAction",
+      "name": "Http Request Action",
+      "kind": "action"
+    },
+    {
+      "id": "HttpServerResponseAction",
+      "name": "Http Server Response Action",
+      "kind": "action"
+    },
+    {
+      "id": "IfConditionAction",
+      "name": "If Condition Action",
+      "kind": "action"
+    },
+    {
+      "id": "IfConfirmedThenAction",
+      "name": "If Confirmed Then Action",
+      "kind": "action"
+    },
+    {
+      "id": "ImageDescriptionAction",
+      "name": "Image Description Action",
+      "kind": "action"
+    },
+    {
+      "id": "ImmersiveModeAction",
+      "name": "Immersive Mode Action",
+      "kind": "action"
+    },
+    {
+      "id": "InputKeyEventAction",
+      "name": "Input Key Event Action",
+      "kind": "action"
+    },
+    {
+      "id": "InvertColoursAction",
+      "name": "Invert Colours Action",
+      "kind": "action"
+    },
+    {
+      "id": "IterateDictionaryAction",
+      "name": "Iterate Dictionary Action",
+      "kind": "action"
+    },
+    {
+      "id": "JavaAction",
+      "name": "Java Action",
+      "kind": "action"
+    },
+    {
+      "id": "JavaScriptAction",
+      "name": "Java Script Action",
+      "kind": "action"
+    },
+    {
+      "id": "JsonOutputAction",
+      "name": "Json Output Action",
+      "kind": "action"
+    },
+    {
+      "id": "JsonParseAction",
+      "name": "Json Parse Action",
+      "kind": "action"
+    },
+    {
+      "id": "KeepAwakeAction",
+      "name": "Keep Awake Action",
+      "kind": "action"
+    },
+    {
+      "id": "KillBackgroundAppAction",
+      "name": "Kill Background App Action",
+      "kind": "action"
+    },
+    {
+      "id": "LaunchActivityAction",
+      "name": "Launch Activity Action",
+      "kind": "action"
+    },
+    {
+      "id": "LaunchAppActivityAction",
+      "name": "Launch App Activity Action",
+      "kind": "action"
+    },
+    {
+      "id": "LaunchHomeScreenAction",
+      "name": "Launch Home Screen Action",
+      "kind": "action"
+    },
+    {
+      "id": "LaunchShortcutAction",
+      "name": "Launch Shortcut Action",
+      "kind": "action"
+    },
+    {
+      "id": "LogAction",
+      "name": "Log Action",
+      "kind": "action"
+    },
+    {
+      "id": "LoopAction",
+      "name": "Loop Action",
+      "kind": "action"
+    },
+    {
+      "id": "MacroDroidDrawerAction",
+      "name": "Macro Droid Drawer Action",
+      "kind": "action"
+    },
+    {
+      "id": "MacroDroidNotificationTextAction",
+      "name": "Macro Droid Notification Text Action",
+      "kind": "action"
+    },
+    {
+      "id": "MacroDroidSettingAction",
+      "name": "Macro Droid Setting Action",
+      "kind": "action"
+    },
+    {
+      "id": "MakeCallAction",
+      "name": "Make Call Action",
+      "kind": "action"
+    },
+    {
+      "id": "MessageDialogAction",
+      "name": "Message Dialog Action",
+      "kind": "action"
+    },
+    {
+      "id": "MuteMicrophoneAction",
+      "name": "Mute Microphone Action",
+      "kind": "action"
+    },
+    {
+      "id": "NotificationAction",
+      "name": "Notification Action",
+      "kind": "action"
+    },
+    {
+      "id": "NotificationInteractionAction",
+      "name": "Notification Interaction Action",
+      "kind": "action"
+    },
+    {
+      "id": "NotificationReplyAction",
+      "name": "Notification Reply Action",
+      "kind": "action"
+    },
+    {
+      "id": "OCRAction",
+      "name": "OCRAction",
+      "kind": "action"
+    },
+    {
+      "id": "OpenCallLogAction",
+      "name": "Open Call Log Action",
+      "kind": "action"
+    },
+    {
+      "id": "OpenFileAction",
+      "name": "Open File Action",
+      "kind": "action"
+    },
+    {
+      "id": "OpenLastPhotoAction",
+      "name": "Open Last Photo Action",
+      "kind": "action"
+    },
+    {
+      "id": "OpenMacroDroidLogAction",
+      "name": "Open Macro Droid Log Action",
+      "kind": "action"
+    },
+    {
+      "id": "OpenWebPageAction",
+      "name": "Open Web Page Action",
+      "kind": "action"
+    },
+    {
+      "id": "OptionDialogAction",
+      "name": "Option Dialog Action",
+      "kind": "action"
+    },
+    {
+      "id": "OverlayDialogAction",
+      "name": "Overlay Dialog Action",
+      "kind": "action"
+    },
+    {
+      "id": "PauseAction",
+      "name": "Pause Action",
+      "kind": "action"
+    },
+    {
+      "id": "PinUnlockAction",
+      "name": "Pin Unlock Action",
+      "kind": "action"
+    },
+    {
+      "id": "PlaySoundAction",
+      "name": "Play Sound Action",
+      "kind": "action"
+    },
+    {
+      "id": "PressBackAction",
+      "name": "Press Back Action",
+      "kind": "action"
+    },
+    {
+      "id": "ProofreadingAction",
+      "name": "Proofreading Action",
+      "kind": "action"
+    },
+    {
+      "id": "ReadFileAction",
+      "name": "Read File Action",
+      "kind": "action"
+    },
+    {
+      "id": "ReadQRCodeAction",
+      "name": "Read QRCode Action",
+      "kind": "action"
+    },
+    {
+      "id": "ReadScreenContentsAction",
+      "name": "Read Screen Contents Action",
+      "kind": "action"
+    },
+    {
+      "id": "ReadScreenshotContentsAction",
+      "name": "Read Screenshot Contents Action",
+      "kind": "action"
+    },
+    {
+      "id": "ReadSoundLevelAction",
+      "name": "Read Sound Level Action",
+      "kind": "action"
+    },
+    {
+      "id": "RebootAction",
+      "name": "Reboot Action",
+      "kind": "action"
+    },
+    {
+      "id": "RecordMicrophoneAction",
+      "name": "Record Microphone Action",
+      "kind": "action"
+    },
+    {
+      "id": "RecordVideoAction",
+      "name": "Record Video Action",
+      "kind": "action"
+    },
+    {
+      "id": "RefreshWidgetAction",
+      "name": "Refresh Widget Action",
+      "kind": "action"
+    },
+    {
+      "id": "RejectCallAction",
+      "name": "Reject Call Action",
+      "kind": "action"
+    },
+    {
+      "id": "RestoreNotificationsAction",
+      "name": "Restore Notifications Action",
+      "kind": "action"
+    },
+    {
+      "id": "RewriteTextAction",
+      "name": "Rewrite Text Action",
+      "kind": "action"
+    },
+    {
+      "id": "SamsungRoutinesAction",
+      "name": "Samsung Routines Action",
+      "kind": "action"
+    },
+    {
+      "id": "SayTimeAction",
+      "name": "Say Time Action",
+      "kind": "action"
+    },
+    {
+      "id": "ScreenOnAction",
+      "name": "Screen On Action",
+      "kind": "action"
+    },
+    {
+      "id": "SecureSettingsAction",
+      "name": "Secure Settings Action",
+      "kind": "action"
+    },
+    {
+      "id": "SelectionDialogAction",
+      "name": "Selection Dialog Action",
+      "kind": "action"
+    },
+    {
+      "id": "SendEmailAction",
+      "name": "Send Email Action",
+      "kind": "action"
+    },
+    {
+      "id": "SendIntentAction",
+      "name": "Send Intent Action",
+      "kind": "action"
+    },
+    {
+      "id": "SendSMSAction",
+      "name": "Send SMSAction",
+      "kind": "action"
+    },
+    {
+      "id": "SensorReadAction",
+      "name": "Sensor Read Action",
+      "kind": "action"
+    },
+    {
+      "id": "SetAirplaneModeAction",
+      "name": "Set Airplane Mode Action",
+      "kind": "action"
+    },
+    {
+      "id": "SetAlarmClockAction",
+      "name": "Set Alarm Clock Action",
+      "kind": "action"
+    },
+    {
+      "id": "SetAutoRotateAction",
+      "name": "Set Auto Rotate Action",
+      "kind": "action"
+    },
+    {
+      "id": "SetAutoSyncAction",
+      "name": "Set Auto Sync Action",
+      "kind": "action"
+    },
+    {
+      "id": "SetBluetoothAction",
+      "name": "Set Bluetooth Action",
+      "kind": "action"
+    },
+    {
+      "id": "SetBrightnessAction",
+      "name": "Set Brightness Action",
+      "kind": "action"
+    },
+    {
+      "id": "SetDataAction",
+      "name": "Set Data Action",
+      "kind": "action"
+    },
+    {
+      "id": "SetDigitalAssistantAction",
+      "name": "Set Digital Assistant Action",
+      "kind": "action"
+    },
+    {
+      "id": "SetGPSAction",
+      "name": "Set GPSAction",
+      "kind": "action"
+    },
+    {
+      "id": "SetHotspotAction",
+      "name": "Set Hotspot Action",
+      "kind": "action"
+    },
+    {
+      "id": "SetKeyboardAction",
+      "name": "Set Keyboard Action",
+      "kind": "action"
+    },
+    {
+      "id": "SetKeyguardAction",
+      "name": "Set Keyguard Action",
+      "kind": "action"
+    },
+    {
+      "id": "SetLanguageAction",
+      "name": "Set Language Action",
+      "kind": "action"
+    },
+    {
+      "id": "SetLocationModeAction",
+      "name": "Set Location Mode Action",
+      "kind": "action"
+    },
+    {
+      "id": "SetLocationUpdateRateAction",
+      "name": "Set Location Update Rate Action",
+      "kind": "action"
+    },
+    {
+      "id": "SetMacroDroidIconAction",
+      "name": "Set Macro Droid Icon Action",
+      "kind": "action"
+    },
+    {
+      "id": "SetModeAction",
+      "name": "Set Mode Action",
+      "kind": "action"
+    },
+    {
+      "id": "SetNFCAction",
+      "name": "Set NFCAction",
+      "kind": "action"
+    },
+    {
+      "id": "SetNotificationBarIconAction",
+      "name": "Set Notification Bar Icon Action",
+      "kind": "action"
+    },
+    {
+      "id": "SetNotificationSoundAction",
+      "name": "Set Notification Sound Action",
+      "kind": "action"
+    },
+    {
+      "id": "SetPriorityMode",
+      "name": "Set Priority Mode",
+      "kind": "action"
+    },
+    {
+      "id": "SetQuickSettingsStateAction",
+      "name": "Set Quick Settings State Action",
+      "kind": "action"
+    },
+    {
+      "id": "SetRingtoneAction",
+      "name": "Set Ringtone Action",
+      "kind": "action"
+    },
+    {
+      "id": "SetScreenTimeoutAction",
+      "name": "Set Screen Timeout Action",
+      "kind": "action"
+    },
+    {
+      "id": "SetVariableAction",
+      "name": "Set Variable Action",
+      "kind": "action"
+    },
+    {
+      "id": "SetVibrateAction",
+      "name": "Set Vibrate Action",
+      "kind": "action"
+    },
+    {
+      "id": "SetVolumeAction",
+      "name": "Set Volume Action",
+      "kind": "action"
+    },
+    {
+      "id": "SetWallpaperAction",
+      "name": "Set Wallpaper Action",
+      "kind": "action"
+    },
+    {
+      "id": "SetWifiAction",
+      "name": "Set Wifi Action",
+      "kind": "action"
+    },
+    {
+      "id": "ShareLocationAction",
+      "name": "Share Location Action",
+      "kind": "action"
+    },
+    {
+      "id": "ShareTextAction",
+      "name": "Share Text Action",
+      "kind": "action"
+    },
+    {
+      "id": "ShellScriptAction",
+      "name": "Shell Script Action",
+      "kind": "action"
+    },
+    {
+      "id": "ShowVolumePopupAction",
+      "name": "Show Volume Popup Action",
+      "kind": "action"
+    },
+    {
+      "id": "SilentModeVibrateOffAction",
+      "name": "Silent Mode Vibrate Off Action",
+      "kind": "action"
+    },
+    {
+      "id": "SpeakTextAction",
+      "name": "Speak Text Action",
+      "kind": "action"
+    },
+    {
+      "id": "SpeakerPhoneAction",
+      "name": "Speaker Phone Action",
+      "kind": "action"
+    },
+    {
+      "id": "StopWatchAction",
+      "name": "Stop Watch Action",
+      "kind": "action"
+    },
+    {
+      "id": "SummariseMacrosAction",
+      "name": "Summarise Macros Action",
+      "kind": "action"
+    },
+    {
+      "id": "SummariseTextAction",
+      "name": "Summarise Text Action",
+      "kind": "action"
+    },
+    {
+      "id": "SyncAccountAction",
+      "name": "Sync Account Action",
+      "kind": "action"
+    },
+    {
+      "id": "SystemSettingAction",
+      "name": "System Setting Action",
+      "kind": "action"
+    },
+    {
+      "id": "TakePictureAction",
+      "name": "Take Picture Action",
+      "kind": "action"
+    },
+    {
+      "id": "TakeScreenshotAction",
+      "name": "Take Screenshot Action",
+      "kind": "action"
+    },
+    {
+      "id": "TerminateRunningAction",
+      "name": "Terminate Running Action",
+      "kind": "action"
+    },
+    {
+      "id": "TextManipulationAction",
+      "name": "Text Manipulation Action",
+      "kind": "action"
+    },
+    {
+      "id": "ToastAction",
+      "name": "Toast Action",
+      "kind": "action"
+    },
+    {
+      "id": "TranslateTextAction",
+      "name": "Translate Text Action",
+      "kind": "action"
+    },
+    {
+      "id": "UDPCommandAction",
+      "name": "UDPCommand Action",
+      "kind": "action"
+    },
+    {
+      "id": "UIInteractionAction",
+      "name": "UIInteraction Action",
+      "kind": "action"
+    },
+    {
+      "id": "USBTetheringAction",
+      "name": "USBTethering Action",
+      "kind": "action"
+    },
+    {
+      "id": "UpdateClipboardAction",
+      "name": "Update Clipboard Action",
+      "kind": "action"
+    },
+    {
+      "id": "UploadPhotoAction",
+      "name": "Upload Photo Action",
+      "kind": "action"
+    },
+    {
+      "id": "VibrateAction",
+      "name": "Vibrate Action",
+      "kind": "action"
+    },
+    {
+      "id": "VoiceInputAction",
+      "name": "Voice Input Action",
+      "kind": "action"
+    },
+    {
+      "id": "VoiceSearchAction",
+      "name": "Voice Search Action",
+      "kind": "action"
+    },
+    {
+      "id": "VolumeIncrementDecrementAction",
+      "name": "Volume Increment Decrement Action",
+      "kind": "action"
+    },
+    {
+      "id": "WaitUntilTriggerAction",
+      "name": "Wait Until Trigger Action",
+      "kind": "action"
+    },
+    {
+      "id": "WearOsComplicationAction",
+      "name": "Wear Os Complication Action",
+      "kind": "action"
+    },
+    {
+      "id": "WebHook2wayResponseAction",
+      "name": "Web Hook2way Response Action",
+      "kind": "action"
+    },
+    {
+      "id": "WhatsAppAction",
+      "name": "Whats App Action",
+      "kind": "action"
+    },
+    {
+      "id": "WifiSSIDScanAction",
+      "name": "Wifi SSIDScan Action",
+      "kind": "action"
+    },
+    {
+      "id": "WriteToFileAction",
+      "name": "Write To File Action",
+      "kind": "action"
+    }
+  ],
+  "triggers": [
+    {
+      "id": "AccessibilityServiceStateTrigger",
+      "name": "Accessibility Service State Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "ActivityRecognitionTrigger",
+      "name": "Activity Recognition Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "AirplaneModeTrigger",
+      "name": "Airplane Mode Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "AndroidWearTrigger",
+      "name": "Android Wear Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "AppActivityLaunchedTrigger",
+      "name": "App Activity Launched Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "AppEnabledTrigger",
+      "name": "App Enabled Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "ApplicationInstalledRemovedTrigger",
+      "name": "Application Installed Removed Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "ApplicationLaunchedTrigger",
+      "name": "Application Launched Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "AssistantActivatedTrigger",
+      "name": "Assistant Activated Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "AutoRotateChangeTrigger",
+      "name": "Auto Rotate Change Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "AutoSyncChangeTrigger",
+      "name": "Auto Sync Change Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "BatteryLevelTrigger",
+      "name": "Battery Level Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "BatterySaverTrigger",
+      "name": "Battery Saver Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "BatteryTemperatureTrigger",
+      "name": "Battery Temperature Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "BluetoothBeaconTrigger",
+      "name": "Bluetooth Beacon Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "BluetoothTrigger",
+      "name": "Bluetooth Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "BootTrigger",
+      "name": "Boot Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "CalendarTrigger",
+      "name": "Calendar Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "CallActiveTrigger",
+      "name": "Call Active Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "CallEndedTrigger",
+      "name": "Call Ended Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "CallMissedTrigger",
+      "name": "Call Missed Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "CameraFlashlightTrigger",
+      "name": "Camera Flashlight Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "CameraInUseTrigger",
+      "name": "Camera In Use Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "CellTowerTrigger",
+      "name": "Cell Tower Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "ClipboardChangeTrigger",
+      "name": "Clipboard Change Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "CustomSceneTrigger",
+      "name": "Custom Scene Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "DarkThemeTrigger",
+      "name": "Dark Theme Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "DataOnOffTrigger",
+      "name": "Data On Off Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "DataUsedTrigger",
+      "name": "Data Used Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "DayDreamTrigger",
+      "name": "Day Dream Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "DayTrigger",
+      "name": "Day Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "DeviceUnlockedTrigger",
+      "name": "Device Unlocked Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "DialNumberTrigger",
+      "name": "Dial Number Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "DockTrigger",
+      "name": "Dock Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "DrawerOpenCloseTrigger",
+      "name": "Drawer Open Close Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "EmailReceivedTrigger",
+      "name": "Email Received Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "EmptyTrigger",
+      "name": "Empty Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "ExternalPowerTrigger",
+      "name": "External Power Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "FailedLoginTrigger",
+      "name": "Failed Login Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "FileChangedTrigger",
+      "name": "File Changed Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "FlipDeviceTrigger",
+      "name": "Flip Device Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "FloatingButtonTrigger",
+      "name": "Floating Button Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "FloatingTextShownHiddenTrigger",
+      "name": "Floating Text Shown Hidden Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "FoldAngleTrigger",
+      "name": "Fold Angle Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "GPSEnabledTrigger",
+      "name": "GPSEnabled Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "GeofenceTrigger",
+      "name": "Geofence Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "GoogleAssistantTrigger",
+      "name": "Google Assistant Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "HeadphonesTrigger",
+      "name": "Headphones Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "HomeButtonLongPressTrigger",
+      "name": "Home Button Long Press Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "HotspotTrigger",
+      "name": "Hotspot Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "HttpServerTrigger",
+      "name": "Http Server Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "IncomingCallTrigger",
+      "name": "Incoming Call Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "IncomingSMSTrigger",
+      "name": "Incoming SMSTrigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "IntentReceivedTrigger",
+      "name": "Intent Received Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "IpAddressChangeTrigger",
+      "name": "Ip Address Change Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "KeyboardOpenCloseTrigger",
+      "name": "Keyboard Open Close Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "LightSensorTrigger",
+      "name": "Light Sensor Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "LocationTrigger",
+      "name": "Location Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "LogcatTrigger",
+      "name": "Logcat Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "MacroDroidEnabledTrigger",
+      "name": "Macro Droid Enabled Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "MacroDroidIconLongPressShortcutTrigger",
+      "name": "Macro Droid Icon Long Press Shortcut Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "MacroDroidInitialisedTrigger",
+      "name": "Macro Droid Initialised Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "MacroEnabledTrigger",
+      "name": "Macro Enabled Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "MacroFinishedTrigger",
+      "name": "Macro Finished Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "MediaButtonPressedTrigger",
+      "name": "Media Button Pressed Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "MediaButtonV2Trigger",
+      "name": "Media Button V2 Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "MediaTrackChangedTrigger",
+      "name": "Media Track Changed Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "ModeEnterExitTrigger",
+      "name": "Mode Enter Exit Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "MusicPlayingTrigger",
+      "name": "Music Playing Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "NFCStateTrigger",
+      "name": "NFCState Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "NFCTrigger",
+      "name": "NFCTrigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "NetworkRoamingChangedTrigger",
+      "name": "Network Roaming Changed Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "NetworkTransportChangeTrigger",
+      "name": "Network Transport Change Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "NotificationButtonTrigger",
+      "name": "Notification Button Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "NotificationTrigger",
+      "name": "Notification Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "OrientationTrigger",
+      "name": "Orientation Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "OutgoingCallTrigger",
+      "name": "Outgoing Call Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "PhotoTakenTrigger",
+      "name": "Photo Taken Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "PowerButtonLongPressTrigger",
+      "name": "Power Button Long Press Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "PowerButtonToggleTrigger",
+      "name": "Power Button Toggle Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "PriorityModeTrigger",
+      "name": "Priority Mode Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "ProximityTrigger",
+      "name": "Proximity Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "QuickSettingsTileTrigger",
+      "name": "Quick Settings Tile Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "RegularIntervalTrigger",
+      "name": "Regular Interval Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "SMSSentTrigger",
+      "name": "SMSSent Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "ScreenContentTrigger",
+      "name": "Screen Content Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "ScreenOnOffTrigger",
+      "name": "Screen On Off Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "ScreenshotContentTrigger",
+      "name": "Screenshot Content Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "SensorTrigger",
+      "name": "Sensor Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "ShakeDeviceTrigger",
+      "name": "Shake Device Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "ShareFileTrigger",
+      "name": "Share File Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "ShareTextTrigger",
+      "name": "Share Text Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "ShizukuStoppedTrigger",
+      "name": "Shizuku Stopped Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "ShortcutTrigger",
+      "name": "Shortcut Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "SignalOnOffTrigger",
+      "name": "Signal On Off Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "SilentModeTrigger",
+      "name": "Silent Mode Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "SimChangeTrigger",
+      "name": "Sim Change Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "SleepTrigger",
+      "name": "Sleep Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "SpotifyTrigger",
+      "name": "Spotify Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "StopwatchTrigger",
+      "name": "Stopwatch Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "SunriseSunsetTrigger",
+      "name": "Sunrise Sunset Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "SwipeTrigger",
+      "name": "Swipe Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "SystemLogTrigger",
+      "name": "System Log Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "SystemSettingTrigger",
+      "name": "System Setting Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "SystemTimeTrigger",
+      "name": "System Time Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "TimerTrigger",
+      "name": "Timer Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "ToastTrigger",
+      "name": "Toast Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "UIClickTrigger",
+      "name": "UIClick Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "USBTetheringTrigger",
+      "name": "USBTethering Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "UsbDeviceConnectionTrigger",
+      "name": "Usb Device Connection Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "VariableTrigger",
+      "name": "Variable Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "VolumeButtonTrigger",
+      "name": "Volume Button Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "VolumeLongPressTrigger",
+      "name": "Volume Long Press Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "VpnTrigger",
+      "name": "Vpn Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "WearOSComplicationClickTrigger",
+      "name": "Wear OSComplication Click Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "WeatherTrigger",
+      "name": "Weather Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "WebHook2wayTrigger",
+      "name": "Web Hook2way Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "WebHookTrigger",
+      "name": "Web Hook Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "WiFiConnectionTrigger",
+      "name": "Wi Fi Connection Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "WidgetPressedTrigger",
+      "name": "Widget Pressed Trigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "WifiSSIDTrigger",
+      "name": "Wifi SSIDTrigger",
+      "kind": "trigger"
+    },
+    {
+      "id": "WorkProfileTrigger",
+      "name": "Work Profile Trigger",
+      "kind": "trigger"
+    }
+  ],
+  "constraints": [
+    {
+      "id": "AccessibilityServiceStateConstraint",
+      "name": "Accessibility Service State Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "ActionBlockInvocationMethodConstraint",
+      "name": "Action Block Invocation Method Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "ActiveApplicationConstraint",
+      "name": "Active Application Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "AirplaneModeConstraint",
+      "name": "Airplane Mode Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "AmbientDisplayStateConstraint",
+      "name": "Ambient Display State Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "AppEnabledConstraint",
+      "name": "App Enabled Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "ApplicationInstalledConstraint",
+      "name": "Application Installed Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "AutoRotateConstraint",
+      "name": "Auto Rotate Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "AutoSyncConstraint",
+      "name": "Auto Sync Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "BatteryLevelConstraint",
+      "name": "Battery Level Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "BatterySaverStateConstraint",
+      "name": "Battery Saver State Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "BatteryTemperatureConstraint",
+      "name": "Battery Temperature Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "BluetoothConstraint",
+      "name": "Bluetooth Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "BrightnessConstraint",
+      "name": "Brightness Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "CalendarConstraint",
+      "name": "Calendar Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "CameraCircleShowingConstraint",
+      "name": "Camera Circle Showing Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "CameraInUseConstraint",
+      "name": "Camera In Use Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "CategoryEnabledConstraint",
+      "name": "Category Enabled Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "CellTowerConstraint",
+      "name": "Cell Tower Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "ClipboardConstraint",
+      "name": "Clipboard Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "CompareValueConstraint",
+      "name": "Compare Value Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "CustomSceneConstraint",
+      "name": "Custom Scene Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "DarkThemeConstraint",
+      "name": "Dark Theme Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "DataOnOffConstraint",
+      "name": "Data On Off Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "DataUsedConstraint",
+      "name": "Data Used Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "DayOfMonthConstraint",
+      "name": "Day Of Month Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "DayOfWeekConstraint",
+      "name": "Day Of Week Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "DeviceLockedConstraint",
+      "name": "Device Locked Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "DeviceOrientationConstraint",
+      "name": "Device Orientation Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "DrawerStateConstraint",
+      "name": "Drawer State Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "EdgeLightShowingConstraint",
+      "name": "Edge Light Showing Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "ExternalPowerConstraint",
+      "name": "External Power Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "FaceUpDownConstraint",
+      "name": "Face Up Down Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "FloatingButtonConstraint",
+      "name": "Floating Button Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "FloatingTextConstraint",
+      "name": "Floating Text Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "FoldAngleConstraint",
+      "name": "Fold Angle Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "GPSEnabledConstraint",
+      "name": "GPSEnabled Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "GeofenceConstraint",
+      "name": "Geofence Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "HeadphonesConnectionConstraint",
+      "name": "Headphones Connection Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "InCallConstraint",
+      "name": "In Call Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "InvocationMethodConstraint",
+      "name": "Invocation Method Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "IpAddressConstraint",
+      "name": "Ip Address Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "IsAdbHackedConstraint",
+      "name": "Is Adb Hacked Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "IsRoamingConstraint",
+      "name": "Is Roaming Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "IsRootedConstraint",
+      "name": "Is Rooted Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "KeyboardShowingConstraint",
+      "name": "Keyboard Showing Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "LastRunTimeConstraint",
+      "name": "Last Run Time Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "LauncherIsInForegroundConstraint",
+      "name": "Launcher Is In Foreground Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "LightLevelConstraint",
+      "name": "Light Level Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "LocationModeConstraint",
+      "name": "Location Mode Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "LogicConstraint",
+      "name": "Logic Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "MacroDroidVariableConstraint",
+      "name": "Macro Droid Variable Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "MacroEnabledConstraint",
+      "name": "Macro Enabled Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "MacroRunningConstraint",
+      "name": "Macro Running Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "MicrophoneRecordingConstraint",
+      "name": "Microphone Recording Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "ModeConstraint",
+      "name": "Mode Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "MonthOfYearConstraint",
+      "name": "Month Of Year Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "MusicActiveConstraint",
+      "name": "Music Active Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "NFCStateConstraint",
+      "name": "NFCState Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "NotificationPresentConstraint",
+      "name": "Notification Present Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "NotificationVolumeConstraint",
+      "name": "Notification Volume Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "PhoneRingingConstraint",
+      "name": "Phone Ringing Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "PriorityModeConstraint",
+      "name": "Priority Mode Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "ProximitySensorConstraint",
+      "name": "Proximity Sensor Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "QuickTileStateConstraint",
+      "name": "Quick Tile State Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "RoamingOnOffConstraint",
+      "name": "Roaming On Off Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "ScreenOnOffConstraint",
+      "name": "Screen On Off Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "SensorValueConstraint",
+      "name": "Sensor Value Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "ShizukuStateConstraint",
+      "name": "Shizuku State Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "SignalOnOffConstraint",
+      "name": "Signal On Off Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "SpeakerPhoneConstraint",
+      "name": "Speaker Phone Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "SpeakingTextConstraint",
+      "name": "Speaking Text Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "StopWatchConstraint",
+      "name": "Stop Watch Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "SunsetSunriseConstraint",
+      "name": "Sunset Sunrise Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "SystemSettingConstraint",
+      "name": "System Setting Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "TimeOfDayConstraint",
+      "name": "Time Of Day Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "TimeSinceBootConstraint",
+      "name": "Time Since Boot Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "TorchConstraint",
+      "name": "Torch Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "TriggerThatInvokedConstraint",
+      "name": "Trigger That Invoked Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "USBTetheringConstraint",
+      "name": "USBTethering Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "UsbDeviceConnectedConstraint",
+      "name": "Usb Device Connected Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "VolumeConstraint",
+      "name": "Volume Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "VolumeLevelConstraint",
+      "name": "Volume Level Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "VpnConstraint",
+      "name": "Vpn Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "WifiConstraint",
+      "name": "Wifi Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "WifiHotSpotConstraint",
+      "name": "Wifi Hot Spot Constraint",
+      "kind": "constraint"
+    },
+    {
+      "id": "WorkProfileConstraint",
+      "name": "Work Profile Constraint",
+      "kind": "constraint"
+    }
+  ]
+}
