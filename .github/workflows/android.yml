@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Set up JDK 17
-        uses: actions/setup-java@v6
+        uses: actions/setup-java@v4
         with:
           distribution: temurin
           java-version: '17'
@@ -26,18 +26,85 @@ jobs:
         with:
           gradle-version: '8.10.2'
 
+      # ---------------------------------------------------------------------
+      # Accept Android SDK licenses BEFORE setup-android runs.
+      #
+      # The failure in the previous run was caused by an interactive
+      # `Review licenses that have not been accepted (y/N)?` prompt that
+      # blocks `sdkmanager --licenses` forever because the GitHub Actions
+      # runner has no attached TTY. We accept the licenses in two layers:
+      #
+      #   1. Write the well-known SHA1 fingerprints of the license texts
+      #      directly into $ANDROID_SDK_ROOT/licenses/*. This is the
+      #      method Jake Wharton documented in 2017 and is what every
+      #      Android Studio installation does internally after the user
+      #      presses "y" in the GUI. The hashes are the SHA1 of the
+      #      license text, stable across all currently-supported SDK /
+      #      cmdline-tools versions, and have been used in production CI
+      #      configs for years.
+      #
+      #   2. As a belt-and-braces fallback, also pipe `yes` into
+      #      `sdkmanager --licenses` against the tool the action
+      #      installs. `yes` answers "y" to every prompt and the
+      #      sub-shell exits as soon as sdkmanager stops reading.
+      #
+      # Only `android-sdk-license` is strictly required for the packages
+      # we install (build-tools;35.0.0, platforms;android-35,
+      # platform-tools), but the additional license files are kept
+      # harmless in case any transitive SDK component needs them.
+      # ---------------------------------------------------------------------
+      - name: Accept Android SDK licenses
+        env:
+          ANDROID_SDK_ROOT: ${{ env.ANDROID_HOME }}
+        run: |
+          set -e
+          mkdir -p "$ANDROID_SDK_ROOT/licenses"
+          # android-sdk-license — covers build-tools, platforms, platform-tools
+          printf '\n8933bad161af4178b1185d1a37fbf41ea5269c55\n24333f8a63b6825ea9c5514f83c2829b004d1fee\nd56f5187479451eabf01fb78af6dfcb131a6481e\n' \
+            > "$ANDROID_SDK_ROOT/licenses/android-sdk-license"
+          # android-sdk-preview-license
+          printf '\n84831b9409646a918e30573bab4c9c91346d8abd\n' \
+            > "$ANDROID_SDK_ROOT/licenses/android-sdk-preview-license"
+          ls -l "$ANDROID_SDK_ROOT/licenses"
+
+      # ---------------------------------------------------------------------
+      # Pin cmdline-tools-version explicitly. As of ubuntu-latest in late
+      # 2025 / 2026 the runner image ships cmdline-tools 12.0 and
+      # android-actions/setup-android@v4 defaults to a newer version. When
+      # the action sees the "wrong version" it prints
+      #   Wrong version in preinstalled sdkmanager
+      #   Downloading commandline tools from ...
+      # and races the preinstalled copy, which leaves licenses in an
+      # unknown state. Pinning to 12266719 (16.0) sidesteps that download.
+      # ---------------------------------------------------------------------
       - name: Set up Android SDK
         uses: android-actions/setup-android@v4
         with:
+          cmdline-tools-version: '12266719'
           accept-android-sdk-licenses: true
           log-accepted-android-sdk-licenses: false
           packages: 'platform-tools platforms;android-35 build-tools;35.0.0'
 
+      # Belt-and-braces: even with the license files pre-written above,
+      # explicitly drive `yes | sdkmanager --licenses` against the tool
+      # the action installed. Idempotent — if the licenses are already
+      # accepted it just prints "All SDK package licenses accepted".
+      - name: Belt-and-braces license acceptance
+        if: always()
+        env:
+          ANDROID_SDK_ROOT: ${{ env.ANDROID_HOME }}
+        run: |
+          SDKMANAGER="$ANDROID_SDK_ROOT/cmdline-tools/16.0/bin/sdkmanager"
+          if [ -x "$SDKMANAGER" ]; then
+            yes | "$SDKMANAGER" --licenses >/dev/null 2>&1 || true
+          fi
+
       - name: Build debug APK
-        run: gradle :app:assembleDebug --stacktrace
+        run: gradle :app:assembleDebug --stacktrace --no-daemon
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: MAC-debug-apk
           path: app/build/outputs/apk/debug/app-debug.apk
+          if-no-files-found: error
